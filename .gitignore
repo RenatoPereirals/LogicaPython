@@ -1,0 +1,16 @@
+# Ignora arquivos de byte compilados do Python (bytecode)
+__pycache__/
+*.pyc
+
+# Ignora os diretórios virtuais do ambiente virtual Python
+venv/
+env/
+ENV/
+
+# Ignora os arquivos gerados pelos sistemas de build Python
+*.egg-info/
+dist/
+build/
+
+# Ignora o arquivo de dependências gerado pelo pip
+requirements.txt
